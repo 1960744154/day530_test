@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuoActivity">
+
+
+
+    <ImageView
+        android:id="@+id/advertising_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"></ImageView>
+
+    <Button
+        android:id="@+id/advertising_skip"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/shape"
+        android:text="跳过 "></Button>
+</RelativeLayout>
